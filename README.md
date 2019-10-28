@@ -5,9 +5,9 @@ Repositorio para la presentación del Proyecto Final del curso de Algoritmos y E
 "Agiliza tu mente"
 
 # Integrantes
-Andrea Cervantes
-Geiser Pezo
-Nicolas Rojas
+* Andrea Cervantes
+* Geiser Pezo
+* Nicolas Rojas
  
 # Descripción de proyecto
 Nuestro proyecto está basado en cálculos matemáticos divididos en diferentes níveles. Al principio, contiene una pequeña introducción solicitando el nombre del jugador, luego se procederá a mostrarse las instrucciones pero dependerá del jugador si las lee. Se da inicio al juego con un temporizador de 10 segundos en un conteo regresivo. 
