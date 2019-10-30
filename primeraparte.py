@@ -1,5 +1,5 @@
 from time import sleep
-for i in range(0,10):
-    print(10-i)
+for i in range(0,5):
+    print(5-i)
     sleep(1)
 print("START")
