@@ -12,10 +12,6 @@ for i in range(0,5):
 
 
 print("instrucciones")
-print("---------------")
-
-
-print("Este juego estaba basado en resolver operaciones combinadas el la cual saldran aleatoriamente; y a su ves depedera de la habilidad mental para resolverlos e ingresar el resultado")
 
 
 print("Comienza el juego")
@@ -37,14 +33,19 @@ while jugar=="si":
     numazar=random.randint(1,10)
     numazar1=random.randint(1,10)
     numazar2=random.randint(1,10)
-
     r=int(input("¿Cuanto es: "+str(numazar2)+"*"+str(numazar)+"+"+str(numazar1)+ " ?"))
-    z=int(input("¿Cuanto es: "+str(numazar2)+"+"+str(numazar)+"*"+str(numazar1)+ "  ?"))
-    t=int(input("¿Cuanto es: "+str(numazar2)+"-"+str(numazar)+"+"+str(numazar1)+ "  ?"))
 
+    numazar=random.randint(1,10)
+    numazar1=random.randint(1,10)
+    numazar2=random.randint(1,10)
+    z=int(input("¿Cuanto es: "+str(numazar2)+"+"+str(numazar)+"*"+str(numazar1)+ " ?"))
 
-    print(r)
-    
-    print(z)
-    
-    print(t)
+    numazar=random.randint(1,10)
+    numazar1=random.randint(1,10)
+    numazar2=random.randint(1,10)
+    t=int(input("¿Cuanto es: "+str(numazar2)+"-"+str(numazar)+"+"+str(numazar1)+ " ?"))
+
+x = [r,z,t]
+import random
+y = random.randint(0,2)
+
