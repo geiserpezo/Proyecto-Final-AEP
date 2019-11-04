@@ -1,8 +1,8 @@
 import os
 os.system("cls")
 
-print("BIENVENIDO A 'AGILIZA TU MENTE'!")
-print("Este es un juego matemático donde se pone en desafio tu capacidad de resolver operaciones combinadas en el menor tiempo posible.")
+print("¡BIENVENIDO A 'AGILIZA TU MENTE'!")
+print("Este juego matemático pone en desafío tu capacidad de resolver operaciones combinadas en el menor tiempo posible.")
 
 from time import sleep
 for i in range(0,5):
@@ -45,10 +45,10 @@ while True:
                 if tiempo >= 16:
                     print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡te falta practicar velocidad mental, pero vamos bien!")
             else:
-                print("Respuesta incorrecta :( Suerte para la proxima")
+                print("Respuesta incorrecta :( Suerte para la próxima")
                 while True:
                     jugar=input("¿Quieres jugar otra vez? (si)(no) ")
                     if jugar == "no":
-                        print(" Hasta luego ;-)  ")    
+                        print("Hasta luego ;-) ")    
                     break
     break
