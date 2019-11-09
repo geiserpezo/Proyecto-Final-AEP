@@ -31,6 +31,7 @@ while True:
         jugar= "si"
         while jugar=="si":
             inicio=time.time()
+
             numazar=random.randint(1,10)
             numazar1=random.randint(1,10)
             numazar2=random.randint(1,10)
