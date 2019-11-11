@@ -102,5 +102,59 @@ while True:
                 jugar=input("¿Quieres jugar otra vez? (si)(no)   ")
                 if jugar == "NO":
                     break
+
+
+        import random
+
+        print("Pasaste al Segundo nivel")
+        print("Empieza en")
+        from time import sleep
+        for i in range(0,5):
+            print(5-i)
+            sleep(1)
+
+        for a in range(0,2):
+
+            numazar=random.randint(1,10)
+            numazar1=random.randint(1,10)
+            numazar2=random.randint(1,10)
+            r=int(input("¿ Cuánto es: "+str(numazar2)+"*"+str(numazar)+"+"+str(numazar1)+ " ? = "))
+            r1=numazar2*numazar+numazar1
+
+            if r == r1:
+                print("Respuesta correcta")
+            else:
+                print("Respuesta incorrecta")
+                print("GAME OVER")
+                break
+
+            numazar=random.randint(1,10)
+            numazar1=random.randint(1,10)
+            numazar2=random.randint(1,10)
+            z=int(input("¿ Cuánto es: "+str(numazar2)+"+"+str(numazar)+"-"+str(numazar1)+ " ? = "))
+
+            z1=numazar2+numazar-numazar1
+
+            if z == z1:
+                print("Respuesta correcta")
+                
+            else:
+                print("Respuesta incorrecta")
+                print("GAME OVERlk ")
+                break
+
+            numazar=random.randint(1,10)
+            numazar1=random.randint(1,10)
+            numazar2=random.randint(1,10)
+            t=int(input("¿ Cuánto es: "+str(numazar2)+"-"+str(numazar)+"*"+str(numazar1)+ " ? = "))
+
+            t1=numazar2-numazar*numazar1
+            if t == t1:
+                print("Respuesta correcta")
+                print("NEXT LEVEL")
+            else:
+                print("Respuesta incorrecta")
+                print("GAME OVER")
+                break
             
     print(" Hasta luego, regresa pronto ;-)  ")
