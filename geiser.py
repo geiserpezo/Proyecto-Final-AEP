@@ -32,8 +32,8 @@ while True:
         for i in range(0,2):
             inicio=time.time()
 
-            numazar=random.randint(1,10)
-            numazar1=random.randint(1,10)
+            numazar=random.randint(1,25)
+            numazar1=random.randint(1,25)
             
             r=int(input("¿Cuanto es: "+str(numazar)+"+"+str(numazar1)+ " ?"))
             final=time.time()
@@ -56,8 +56,8 @@ while True:
                 break
             
     
-            numazar=random.randint(1,10)
-            numazar1=random.randint(1,10)
+            numazar=random.randint(1,25)
+            numazar1=random.randint(1,25)
             
             z=int(input("¿Cuanto es: "+str(numazar)+"-"+str(numazar1)+ " ?"))
             final=time.time()
@@ -81,8 +81,8 @@ while True:
                 break
            
 
-            numazar=random.randint(1,10)
-            numazar1=random.randint(1,10)
+            numazar=random.randint(1,25)
+            numazar1=random.randint(1,25)
             
             t=int(input("¿Cuanto es: "+str(numazar)+"+"+str(numazar1)+ " ?"))
             final=time.time()
