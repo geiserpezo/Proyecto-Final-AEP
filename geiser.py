@@ -103,4 +103,4 @@ while True:
                 if jugar == "NO":
                     break
             
-    print(" Hasta luego ;-)  ")
+    print(" Hasta luego, regresa pronto ;-)  ")
