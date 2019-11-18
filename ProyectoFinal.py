@@ -17,19 +17,6 @@ while True:
         break
     else:
         nombre = input("Nombre del jugador:")
-        
-        edad = int(input("Edad del jugador:"))
-        while True:
-            if edad >0 and edad<100:
-                print("la edad del jugador es:", edad)
-            else:
-                print("vuelva a ingresar su edad")
-            break
-            
-                
-                
-        
-
         print("El nombre del jugador es:", nombre)
       
         while True:
@@ -64,11 +51,11 @@ while True:
                 if r == r1:
                     print("Felicidades, respuesta correcta,",end=" ")
                     if tiempo < 7:
-                        print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
+                        print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
                     if tiempo >= 7 and tiempo < 16:
-                        print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
+                        print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
                     if tiempo >= 16:
-                        print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
+                        print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
                 else:
                     print("Suerte para la próxima")
                     jugar=input("¿Quieres jugar otra vez? (si)(no) =  ")
@@ -92,11 +79,11 @@ while True:
                 if z == z1:
                     print("Felicidades, respuesta correcta,",end=" ")
                     if tiempo < 7:
-                        print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
+                        print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
                     if tiempo >= 7 and tiempo < 16:
-                        print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
+                        print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
                     if tiempo >= 16:
-                        print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
+                        print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
                 else:
                     print("Suerte para la próxima")
                     jugar=input("¿Quieres jugar otra vez? (si)(no) =  ")
@@ -118,11 +105,11 @@ while True:
                 if t == t1:
                     print("Felicidades, respuesta correcta,",end=" ")
                     if tiempo < 7:
-                        print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
+                        print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
                     if tiempo >= 7 and tiempo < 16:
-                        print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
+                        print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
                     if tiempo >= 16:
-                        print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
+                        print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
             
                 else:
                     print("Suerte para la próxima")
@@ -137,7 +124,7 @@ while True:
                 import time
                 import random
 
-                print("Pasaste al Segundo nivel")
+                print("Llegaste al segundo nivel")
                 print("Empieza en")
                 from time import sleep
                 for i in range(0,3):
@@ -158,11 +145,11 @@ while True:
                     if r == r1:
                         print("Respuesta correcta,")
                         if tiempo < 7:
-                            print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
+                            print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
                         if tiempo >= 7 and tiempo < 16:
-                            print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
+                            print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
                         if tiempo >= 16:
-                            print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
+                            print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
                     else:
                         print("Suerte para la próxima")
                         jugar=input("¿Quieres jugar otra vez? (si)(no) =  ")
@@ -170,7 +157,7 @@ while True:
                             print("Hasta pronto")
                             sys.exit()
                         else:
-                            print("regresaste al nivel anterior")
+                            print("Regresas al nivel anterior")
                             from time import sleep
                             for i in range(0,3):
                                 print(3-i)
@@ -190,11 +177,11 @@ while True:
                     if z == z1:
                         print("Respuesta correcta,")
                         if tiempo < 7:
-                            print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
+                            print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
                         if tiempo >= 7 and tiempo < 16:
-                            print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
+                            print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
                         if tiempo >= 16:
-                            print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
+                            print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
                         
                     else:
                         print("Suerte para la próxima")
@@ -217,11 +204,11 @@ while True:
                     if t == t1:
                         print("Respuesta correcta,")
                         if tiempo < 7:
-                            print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
+                            print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
                         if tiempo >= 7 and tiempo < 16:
-                            print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
+                            print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
                         if tiempo >= 16:
-                            print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
+                            print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
 
                     else:
                         print("Suerte para la próxima")
@@ -233,12 +220,12 @@ while True:
                             break
                 
                     
-                    print("Next level")
+                    print("Siguiente nivel")
                     import time
                     import random
 
-                    print("Pasaste al tercer nivel")
-                    print("Empieza en")
+                    print("Llegaste al tercer nivel")
+                    print("Comienza en")
                     from time import sleep
                     for i in range(0,3):
                         print(3-i)
@@ -259,11 +246,11 @@ while True:
                         if r == r1:
                             print("Respuesta correcta,")
                             if tiempo < 7:
-                                print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
+                                print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
                             if tiempo >= 7 and tiempo < 16:
-                                print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
+                                print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
                             if tiempo >= 16:
-                                print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
+                                print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
         
                         else:
                             print("Suerte para la próxima")
@@ -272,7 +259,7 @@ while True:
                                 print("Hasta pronto")
                                 sys.exit()
                             else:
-                                print("regresando nivel anterior")
+                                print("Regresando nivel anterior")
                                 from time import sleep
                                 for i in range(0,3):
                                     print(3-i)
@@ -292,11 +279,11 @@ while True:
                         if z == z1:
                             print("Respuesta correcta,")
                             if tiempo < 7:
-                                print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
+                                print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
                             if tiempo >= 7 and tiempo < 16:
-                                print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
+                                print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
                             if tiempo >= 16:
-                                print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
+                                print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
         
                             
                         else:
@@ -306,7 +293,7 @@ while True:
                                 print("Hasta pronto")
                                 sys.exit()
                             else:
-                                print("regresando nivel anterior")
+                                print("Regresando nivel anterior")
                                 from time import sleep
                                 for i in range(0,3):
                                     print(3-i)
@@ -326,11 +313,11 @@ while True:
                         if t == t1:
                             print("Respuesta correcta,")
                             if tiempo < 7:
-                                print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
+                                print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Excelente!")
                             if tiempo >= 7 and tiempo < 16:
-                                print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
+                                print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Lo puedes hacer mejor!")
                             if tiempo >= 16:
-                                print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
+                                print("Tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
         
                             print("Ganaste el juego, mil de IQ")
                             sys.exit()
@@ -342,7 +329,7 @@ while True:
                                 print("Hasta pronto")
                                 sys.exit()
                             else:
-                                print("regresando nivel anterior")
+                                print("Regresando nivel anterior")
                                 from time import sleep
                                 for i in range(0,3):
                                     print(3-i)
