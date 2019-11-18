@@ -297,6 +297,8 @@ while True:
                                 print("tu tiempo fue de:   " +str(tiempo)+"   segundos, ¡Te falta practicar velocidad mental, pero vamos bien!")
         
                             print("Ganaste el juego, mil de IQ")
+                            sys.exit()
+
                         else:
                             print("Suerte para la próxima")
                             jugar=input("¿Quieres jugar otra vez? (si)(no) =  ")
