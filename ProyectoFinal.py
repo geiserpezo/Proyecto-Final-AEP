@@ -125,8 +125,8 @@ while True:
                 print("Pasaste al Segundo nivel")
                 print("Empieza en")
                 from time import sleep
-                for i in range(0,5):
-                    print(5-i)
+                for i in range(0,3):
+                    print(3-i)
                     sleep(1)
 
                 for a in range(0,2):
@@ -220,8 +220,8 @@ while True:
                     print("Pasaste al tercer nivel")
                     print("Empieza en")
                     from time import sleep
-                    for i in range(0,5):
-                        print(5-i)
+                    for i in range(0,3):
+                        print(3-i)
                         sleep(1)
 
                     for a in range(0,2):
