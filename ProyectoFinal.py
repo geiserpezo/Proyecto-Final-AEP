@@ -16,7 +16,13 @@ while True:
         print("Vuelva pronto :-)")
         break
     else:
+        nombre = input("Nombre del jugador:")
+        edad = input("Edad del jugador:")
+        print("El nombre del jugador es;", nombre)
+        print("La edad el jugador es:",edad)
         while True:
+
+
             print("Resuelva las operaciones en el menor tiempo posible")
             
             print("Comienza el juego ")
