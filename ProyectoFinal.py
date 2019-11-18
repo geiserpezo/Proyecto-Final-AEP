@@ -18,7 +18,7 @@ while True:
     else:
         nombre = input("Nombre del jugador:")
         edad = input("Edad del jugador:")
-        print("El nombre del jugador es;", nombre)
+        print("El nombre del jugador es:", nombre)
         print("La edad el jugador es:",edad)
         while True:
 
