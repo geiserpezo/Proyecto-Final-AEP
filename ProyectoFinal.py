@@ -17,9 +17,21 @@ while True:
         break
     else:
         nombre = input("Nombre del jugador:")
-        edad = input("Edad del jugador:")
+        
+        edad = int(input("Edad del jugador:"))
+        while True:
+            if edad >0 and edad<100:
+                print("la edad del jugador es:", edad)
+            else:
+                print("vuelva a ingresar su edad")
+            break
+            
+                
+                
+        
+
         print("El nombre del jugador es:", nombre)
-        print("La edad el jugador es:",edad)
+      
         while True:
 
 
@@ -64,6 +76,7 @@ while True:
                         print("Hasta pronto")
                         sys.exit()
                     else:
+                        
                         break
                 
         
@@ -91,6 +104,7 @@ while True:
                         print("Hasta pronto")
                         sys.exit()
                     else:
+                        
                         break
             
 
@@ -117,6 +131,7 @@ while True:
                         print("Hasta pronto")
                         sys.exit()
                     else:
+                        
                         break
 
                 import time
@@ -155,6 +170,11 @@ while True:
                             print("Hasta pronto")
                             sys.exit()
                         else:
+                            print("regresaste al nivel anterior")
+                            from time import sleep
+                            for i in range(0,3):
+                                print(3-i)
+                                sleep(1)
                             break
                 
 
@@ -252,6 +272,11 @@ while True:
                                 print("Hasta pronto")
                                 sys.exit()
                             else:
+                                print("regresando nivel anterior")
+                                from time import sleep
+                                for i in range(0,3):
+                                    print(3-i)
+                                    sleep(1)
                                 break
                     
 
@@ -281,6 +306,11 @@ while True:
                                 print("Hasta pronto")
                                 sys.exit()
                             else:
+                                print("regresando nivel anterior")
+                                from time import sleep
+                                for i in range(0,3):
+                                    print(3-i)
+                                    sleep(1)
                                 break
                 
                     
@@ -312,6 +342,11 @@ while True:
                                 print("Hasta pronto")
                                 sys.exit()
                             else:
+                                print("regresando nivel anterior")
+                                from time import sleep
+                                for i in range(0,3):
+                                    print(3-i)
+                                    sleep(1)
                                 break
         
            
